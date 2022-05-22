@@ -1,0 +1,41 @@
+<!--Exercício - Formulário de Contato
+1. O formulário deverá conter um titulo. 
+2. O formulário conterá 3 campos: nome, e-mail, mensagem
+3. O formulário deverá conter um botão para enviar
+Atenção: o formulário deverá conter regras de acessibilidade, como o label para cada campo, por exemplo. 
+-->
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <link rel='stylesheet' type='text/css' href='style.css' media='screen'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Formulário de Contato</title>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='text'>
+        <h1>fale conosco</h1>
+        <p>preencha o formulário abaixo para entrar em contato com a nossa equipe!</p>
+      </div>
+      <div class='form-container'>
+        <form action=''>
+          <fieldset>
+            <label for='name'>nome:</label>
+            <input type=text name='name' placeholder='Como gostaria de ser chamado?'>
+            <label for='last-name'>sobrenome:</label>
+            <input type=text name='last-name' placeholder='Seu último sobrenome'>
+            <label for='email'>e-mail:</label>
+            <input type=text name='e-mail' placeholder='exemplo@gmail.com'>
+            <label for='message'>mensagem:</label>
+            <textarea type=text name='message' rows='7'placeholder='Deixe sua mensagem aqui'></textarea>
+            <button  class='button' type='submit'>enviar</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
