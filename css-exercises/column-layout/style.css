@@ -1,0 +1,18 @@
+* {
+  margin: 10px;
+}
+.container {
+	display: flex;
+  gap: 1rem;
+}
+
+aside {
+	flex-basis: 25%;
+  border: 1px dashed green;
+  height: 95vh;
+}
+
+main {
+  flex: 1;
+  border: 1px dashed red;
+}

@@ -1,0 +1,13 @@
+button svg {
+  width: 2rem;
+  height: auto;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  padding: 2vh;
+  border-color: lightpink;
+  border-radius: 5px;
+}
